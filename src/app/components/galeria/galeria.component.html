@@ -1,0 +1,18 @@
+<div class="gallery-wrapper">
+     
+    <div *ngFor="let pers of mis_personas" class="image-wrapper">
+      <a href="#lightbox-image-1">
+        <img src="{{pers.picture.large}}" alt="" />
+      </a>
+    </div>
+  <div class="gallery-lightboxes">    
+    <div class="image-lightbox" id="lightbox-image-1">
+      <div class="image-lightbox-wrapper">
+        <a href="#" class="close"></a>
+        <a href="#lightbox-image-3" class="arrow-left"></a>
+        <a href="#lightbox-image-2" class="arrow-right"></a>
+        <!-- <img src="" alt="" /> -->
+      </div>
+    </div>    
+  </div>
+</div>
